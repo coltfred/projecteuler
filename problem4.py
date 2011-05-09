@@ -1,11 +1,12 @@
+MAX = 999
 def is_pal(s):
     length = len(s)
     half = length/2
     return s[0:-half] == s[half:length][::-1]
 
 if __name__ == '__main__':
-    i = 999
-    j = 999
+    i = MAX
+    j = MAX
     ans = 0
     while i > 0:
         while j > 0:
@@ -17,5 +18,5 @@ if __name__ == '__main__':
                     break;
             j += -1
         i += -1
-        j = 999
+        j = MAX
     print ans
