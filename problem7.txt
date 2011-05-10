@@ -1,0 +1,4 @@
+This is computationally easy, but it's much easier to just do a simple wolframalpha query...
+
+http://www.wolframalpha.com/input/?i=10001st+prime+number
+
