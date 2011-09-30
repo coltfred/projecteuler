@@ -1,5 +1,5 @@
 object euler {
-  val projects = Set[util.Project](project1, project2)
+  val projects = Set[util.Project](project1, project2, project6)
 
   def main(args: Array[String]) {
     if (args.length == 0) {
