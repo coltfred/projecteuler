@@ -25,7 +25,9 @@ trait Tester {
   var passedTests = 0
 
   def verify(assertion: Boolean) {
-    if (!assertion) 
+    if (assertion)
+      passedTests += 1
+    else 
       throw new java.lang.AssertionError("Test failed.")
   }
 
